@@ -43,7 +43,7 @@ const Imagen=styled.img`
 
 function App() {
   const [monedas,setMonedas]=useState({});
-  const [loading,setLoading]=useState(true);
+  const [loading,setLoading]=useState(false);
   const [resultado,setResultado]=useState({});
 
   useEffect(()=>{
